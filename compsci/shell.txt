@@ -1,0 +1,4 @@
+# Sergio Aguado Negrín
+# sergio.aguadonegrin68@myhunter.cuny.edu
+
+echo "Hello, World"
