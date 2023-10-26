@@ -9,8 +9,8 @@ file = input("Enter name of input file: ")
 output = input("Enter name of output file: ")
 children = pd.read_csv(file)
 
-children['Fraction'] = children['Total Children in Shelter'] / children['Total']
-children.plot( X = 'Year', Y = 'Fraction')
+children['Fraction Children'] = children['Total Children in Shelter'] / children['Total Individuals in Shelter']
+children.plot( X = 'Date of Census', Y = 'Fraction Children')
 
 fig = plt.gcf()
 fig.savefig(output)
