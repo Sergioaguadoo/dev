@@ -10,7 +10,7 @@ output = input("Enter name of output file: ")
 children = pd.read_csv(file)
 
 children['Fraction Children'] = children['Total Children in Shelter'] / children['Total Individuals in Shelter']
-children.plot( X = 'Date of Census', Y = 'Fraction Children')
+children.plot( x = 'Date of Census', y = 'Fraction Children')
 
 fig = plt.gcf()
 fig.savefig(output)
