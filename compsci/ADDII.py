@@ -14,7 +14,7 @@ ADDI $t0, $zero, 44
 SB $t0, 5($sp)
 ADDI $t0, $zero, 32 # (space)
 SB $t0, 6($sp)
-ADDI $t0, $zero, 127 # w
+ADDI $t0, $zero, 87 # w
 SB $t0, 7($sp)
 ADDI $t0, $zero, 111 # o
 SB $t0, 8($sp)
